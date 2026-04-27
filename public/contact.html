@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — ClientBridge</title>
+<meta name="description" content="Questions about ClientBridge? Reach out and we'll get back to you directly.">
+<link rel="icon" href="/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="/logo-symbol.png" alt="ClientBridge">
+      <span class="nav-logo-text">ClientBridge</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/how-it-works">How It Works</a></li>
+      <li><a href="/features">Features</a></li>
+      <li><a href="/pilot">Pilot</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="/pilot" class="btn btn-primary btn-sm nav-cta">Apply to Join the Pilot</a>
+      <button class="nav-hamburger" id="nav-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <span class="label label-light">Contact</span>
+    <h1 class="page-hero-headline">We'd love to<br>hear from you.</h1>
+    <p class="page-hero-sub">Questions, partnership inquiries, or just want to learn more — send us a message and we'll get back to you directly.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- LEFT: info -->
+      <div class="contact-info">
+        <h2 class="contact-info-heading">Get in touch</h2>
+        <p class="contact-info-body">ClientBridge is built and maintained by Rondo Ventures Group, LLC. Whether you're curious about the pilot, exploring a partnership, or just have a question — we respond personally.</p>
+
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Email</span>
+            <a href="mailto:rondo@rondoventuresgroup.com" class="contact-detail-value">rondo@rondoventuresgroup.com</a>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Company</span>
+            <a href="https://rondoventuresgroup.com" target="_blank" rel="noopener" class="contact-detail-value">rondoventuresgroup.com</a>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Pilot Applications</span>
+            <a href="/pilot" class="contact-detail-value">Apply here &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: form -->
+      <div class="contact-form-wrap">
+        <form class="pilot-form" action="https://formspree.io/f/xbdqeora" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reason">Reason for reaching out</label>
+            <select id="reason" name="reason" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="pilot">Question about the pilot</option>
+              <option value="partnership">Partnership or business inquiry</option>
+              <option value="press">Press or media</option>
+              <option value="general">General question</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;margin-top:8px;">Send Message</button>
+        </form>
+        <p class="form-note">We typically respond within 1–2 business days.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER CTA -->
+<section class="section-cta">
+  <div class="container-xs">
+    <h2 class="section-cta-heading">Ready to try it yourself?</h2>
+    <div class="section-cta-actions">
+      <a href="/pilot" class="btn btn-primary btn-lg">Apply to Join the Pilot</a>
+      <a href="/features" class="btn btn-outline-white btn-lg">See the Features</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo">
+          <img src="/logo-symbol.png" alt="ClientBridge">
+          <span class="footer-logo-text">ClientBridge</span>
+        </a>
+        <p class="footer-tagline">Smarter systems for real agents.</p>
+        <p class="footer-parent">A <a href="https://rondoventuresgroup.com" target="_blank" rel="noopener">Rondo Ventures Group</a> product.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-link-col">
+          <h4>Pages</h4>
+          <a href="/">Home</a>
+          <a href="/how-it-works">How It Works</a>
+          <a href="/features">Features</a>
+          <a href="/pilot">Pilot</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div class="footer-link-col">
+          <h4>Contact</h4>
+          <a href="mailto:rondo@rondoventuresgroup.com">rondo@rondoventuresgroup.com</a>
+          <a href="https://rondoventuresgroup.com" target="_blank" rel="noopener">rondoventuresgroup.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Rondo Ventures Group. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.nav-links a').forEach(a => {
+  if (a.getAttribute('href') === location.pathname) a.classList.add('active');
+});
+document.getElementById('nav-toggle').addEventListener('click', () => {
+  document.getElementById('nav-links').classList.toggle('open');
+});
+</script>
+</body>
+</html>

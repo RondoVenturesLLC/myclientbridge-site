@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join the Pilot — ClientBridge</title>
+<meta name="description" content="ClientBridge is in limited pilot. Apply for free early access — we're looking for real estate agents ready to spend less time on admin and more time closing.">
+<link rel="icon" href="/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="/logo-symbol.png" alt="ClientBridge">
+      <span class="nav-logo-text">ClientBridge</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/how-it-works">How It Works</a></li>
+      <li><a href="/features">Features</a></li>
+      <li><a href="/pilot">Pilot</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="/pilot" class="btn btn-primary btn-sm nav-cta">Apply to Join the Pilot</a>
+      <button class="nav-hamburger" id="nav-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <span class="label label-light">Pilot Program</span>
+    <h1 class="page-hero-headline">Get in early.<br>Help shape what's next.</h1>
+    <p class="page-hero-sub">ClientBridge is live and running for a small group of agents. Spots are limited — apply below and we'll follow up directly.</p>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="section">
+  <div class="container">
+    <span class="label">What's Included</span>
+    <span class="accent-line"></span>
+    <h2 class="section-heading">What pilot agents get</h2>
+    <p class="section-intro">This isn't a waitlist. Pilot agents get real access to a live, working system — and a direct line to shape how it evolves.</p>
+    <div class="cards-grid" style="margin-top:48px;">
+      <div class="pilot-benefit-card">
+        <div class="pilot-benefit-num">01</div>
+        <h3 class="pilot-benefit-title">Full access to all three tools</h3>
+        <p class="pilot-benefit-body">New Lead Capture, Client Updates, and your Morning Dashboard — live and running from day one. No stripped-down demo version.</p>
+      </div>
+      <div class="pilot-benefit-card">
+        <div class="pilot-benefit-num">02</div>
+        <h3 class="pilot-benefit-title">Direct feedback channel</h3>
+        <p class="pilot-benefit-body">You're not a passive user. Your experience informs what gets built next. What's working, what's missing, what matters to you — it all shapes Phase 2.</p>
+      </div>
+      <div class="pilot-benefit-card">
+        <div class="pilot-benefit-num">03</div>
+        <h3 class="pilot-benefit-title">Free for the pilot period</h3>
+        <p class="pilot-benefit-body">No subscription, no credit card. Pilot access is free while we're in this phase. Early agents who stay through launch will be recognized when pricing goes live.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILOT EXPECTATIONS -->
+<section class="section section-dark">
+  <div class="container">
+    <span class="label">What We Ask</span>
+    <span class="accent-line"></span>
+    <h2 class="section-heading section-heading-light">We're looking for agents who are actually going to use it.</h2>
+    <p class="section-intro section-intro-light" style="max-width:660px;">The pilot only works if real agents are using ClientBridge on real deals. We're not looking for a massive group — we're looking for the right one.</p>
+    <div class="pilot-ask-list">
+      <div class="pilot-ask-item">
+        <div class="pilot-ask-dot"></div>
+        <p>Use ClientBridge for at least one new lead or client update per week during the pilot.</p>
+      </div>
+      <div class="pilot-ask-item">
+        <div class="pilot-ask-dot"></div>
+        <p>Share honest feedback — what's confusing, what's slow, what you'd change.</p>
+      </div>
+      <div class="pilot-ask-item">
+        <div class="pilot-ask-dot"></div>
+        <p>Be available for a short check-in conversation once a month (30 minutes max).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLICATION FORM -->
+<section class="section" id="apply">
+  <div class="container-xs">
+    <span class="label">Apply Now</span>
+    <span class="accent-line"></span>
+    <h2 class="section-heading">Tell us a little about yourself.</h2>
+    <p class="section-intro">We review every application personally. If it looks like a good fit, you'll hear from us within a few business days.</p>
+
+    <form class="pilot-form" action="https://formspree.io/f/xpqovnge" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="type">How do you work?</label>
+          <select id="type" name="agent_type" required>
+            <option value="" disabled selected>Select one</option>
+            <option value="independent">Independent agent</option>
+            <option value="team">Part of a team</option>
+            <option value="brokerage">Inside a brokerage</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="years">Years in real estate</label>
+          <select id="years" name="years_in_re" required>
+            <option value="" disabled selected>Select one</option>
+            <option value="less_than_2">Less than 2 years</option>
+            <option value="2_to_5">2–5 years</option>
+            <option value="5_to_10">5–10 years</option>
+            <option value="10_plus">10+ years</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="want">What would you most want ClientBridge to solve for you?</label>
+        <textarea id="want" name="biggest_need" rows="4" placeholder="Describe the part of your workflow that takes the most time or causes the most friction..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="heard">How did you hear about ClientBridge?</label>
+        <select id="heard" name="how_heard">
+          <option value="" disabled selected>Select one</option>
+          <option value="referral">Referral from another agent</option>
+          <option value="social">Social media</option>
+          <option value="search">Search / Google</option>
+          <option value="rondo">Rondo Ventures Group</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg" style="width:100%;margin-top:8px;">Submit Application</button>
+    </form>
+
+    <p class="form-note">We don't share your information. This application is only used to evaluate fit for the pilot program.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo">
+          <img src="/logo-symbol.png" alt="ClientBridge">
+          <span class="footer-logo-text">ClientBridge</span>
+        </a>
+        <p class="footer-tagline">Smarter systems for real agents.</p>
+        <p class="footer-parent">A <a href="https://rondoventuresgroup.com" target="_blank" rel="noopener">Rondo Ventures Group</a> product.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-link-col">
+          <h4>Pages</h4>
+          <a href="/">Home</a>
+          <a href="/how-it-works">How It Works</a>
+          <a href="/features">Features</a>
+          <a href="/pilot">Pilot</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div class="footer-link-col">
+          <h4>Contact</h4>
+          <a href="mailto:rondo@rondoventuresgroup.com">rondo@rondoventuresgroup.com</a>
+          <a href="https://rondoventuresgroup.com" target="_blank" rel="noopener">rondoventuresgroup.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Rondo Ventures Group. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.nav-links a').forEach(a => {
+  if (a.getAttribute('href') === location.pathname) a.classList.add('active');
+});
+document.getElementById('nav-toggle').addEventListener('click', () => {
+  document.getElementById('nav-links').classList.toggle('open');
+});
+</script>
+</body>
+</html>
